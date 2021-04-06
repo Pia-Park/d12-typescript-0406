@@ -94,12 +94,12 @@ export default () => {
     // later we destructure it
     const [name, qty] = inventoryItem;
   
+    function addInventory(name: string, quantity: number): string {
+      return `Added ${quantity} ${name}s to inventory.`;
+    }
     const msg = addInventory(name, qty);
   
     console.log('[Exercise 1.6]', msg);
   
-    function addInventory(name: string, quantity: number): string {
-      return `Added ${quantity} ${name}s to inventory.`;
-    }
   }
   
