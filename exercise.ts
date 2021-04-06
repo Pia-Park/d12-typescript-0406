@@ -53,7 +53,7 @@ export default () => {
     const largestNumber:number = Number.MAX_VALUE;
     const mostBiglyNumber:number = Infinity;
   
-    const members: any[] = [
+    const members: number[] = [
       integer,
       float,
       hex,
@@ -65,7 +65,7 @@ export default () => {
       mostBiglyNumber
     ];
   
-    members[0] = '12345';
+    members[0] = 12345;
   
     console.log('[Exercise 1.4]', members);
   
