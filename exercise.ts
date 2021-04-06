@@ -7,8 +7,8 @@
 // • Identify when type checking happens
 // • Afterwards we will analyze transpiler output
 
-export default () => {
-    // ======== Exercise 1.1 ========
+const Exercise1 = () => {
+      // ======== Exercise 1.1 ========
     // Instructions:
     // • Hover over red squigglies to inspect the TS errors.
     // • Hover over variables to inspect their types.
@@ -102,4 +102,6 @@ export default () => {
     console.log('[Exercise 1.6]', msg);
   
   }
+
+  Exercise1()
   
